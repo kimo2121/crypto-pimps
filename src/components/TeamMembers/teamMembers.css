@@ -6,6 +6,7 @@
 }
 .team-members {
   display: flex;
+  margin: 0 auto;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -23,18 +24,20 @@
 .each-member img {
   width: 78.5%;
   height: 81%;
+  margin-left: -0.4%;
+  margin-top: -0.3%;
 }
 .each-member {
-  width: 260px;
-  height: 360px;
+  width: 350px;
+  height: 350px;
   margin: 5vh 2vw;
 }
 .member-frame {
   background-image: url("../../assets/images/memberFrame.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  width: 260px;
-  height: 360px;
+  width: 350px;
+  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,4 +45,34 @@
   background-position: center center;
   left: 0;
   z-index: -1;
+}
+@media screen and (max-width: 768px) {
+  .each-member {
+    width: 600px;
+    height: 600px;
+  }
+  .member-frame {
+    width: 600px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .each-member {
+    width: 450px;
+    height: 450px;
+  }
+  .member-frame {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .each-member {
+    width: 350px;
+    height: 350px;
+  }
+  .member-frame {
+    width: 350px;
+    height: 350px;
+  }
 }
