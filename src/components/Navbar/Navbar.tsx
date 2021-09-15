@@ -5,6 +5,7 @@ import { ReactComponent as Menu } from "../../assets/icons/menu.svg";
 import { ReactComponent as Close } from "../../assets/icons/close.svg";
 
 import "./navbar.css";
+import { Link } from "react-scroll";
 const Navbar: React.FC = () => {
   const [menu, setMenu] = React.useState(false);
   const showMenu = (): void => {
@@ -16,13 +17,21 @@ const Navbar: React.FC = () => {
         <h1>CRYPTO PIMPS</h1>
       </div>
       <div className="nav-links">
-        <a href="/about">ABOUT</a>
-        <a href="/team">TEAM</a>
-        <a href="/road-map">ROADMAP</a>
-        <a href="/faq">FAQ</a>
+        <Link smooth={true} duration={700} to="about">
+          ABOUT
+        </Link>
+        <Link smooth={true} duration={700} to="team">
+          TEAM
+        </Link>
+        <Link smooth={true} duration={700} to="road-map">
+          ROADMAP
+        </Link>
+        <Link smooth={true} duration={700} to="faq">
+          FAQ
+        </Link>
       </div>
       <div className="external-links">
-        <a href="/">
+        <a href="https://twitter.com/Crypto_Pimps">
           <img className="twitter-link" src={twitter} alt="" />
         </a>
         <a href="/">
@@ -35,13 +44,41 @@ const Navbar: React.FC = () => {
       <div className={menu ? "slide-menu active" : "slide-menu"}>
         <Close onClick={() => setMenu(false)} className="close-icon" />
         <div className="nav-links menu">
-          <a href="/about">ABOUT</a>
-          <a href="/team">TEAM</a>
-          <a href="/road-map">ROADMAP</a>
-          <a href="/faq">FAQ</a>
+          <Link
+            onClick={() => setMenu(false)}
+            smooth={true}
+            duration={700}
+            to="about"
+          >
+            ABOUT
+          </Link>
+          <Link
+            onClick={() => setMenu(false)}
+            smooth={true}
+            duration={700}
+            to="team"
+          >
+            TEAM
+          </Link>
+          <Link
+            onClick={() => setMenu(false)}
+            smooth={true}
+            duration={700}
+            to="road-map"
+          >
+            ROADMAP
+          </Link>
+          <Link
+            onClick={() => setMenu(false)}
+            smooth={true}
+            duration={700}
+            to="faq"
+          >
+            FAQ
+          </Link>
         </div>
         <div className="external-links menu">
-          <a href="/">
+          <a href="https://twitter.com/Crypto_Pimps">
             <img className="twitter-link" src={twitter} alt="" />
           </a>
           <a href="/">

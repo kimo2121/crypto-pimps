@@ -21,7 +21,7 @@ const Home: React.FC = () => {
           dancefloor and enjoy the show. We’re just getting started
         </h1>
       </div>
-      <div className="about">
+      <div id="about" className="about">
         <h4>About</h4>
         <p>
           Crypto Pimps is one of the largest NFT projects being launched on the

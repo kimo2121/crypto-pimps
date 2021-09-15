@@ -3,7 +3,7 @@ import "./roadMap.css";
 import map from "../../assets/images/Group 100.png";
 const RoadMap: React.FC = () => {
   return (
-    <div className="road-map">
+    <div id="road-map" className="road-map">
       <h1>ROAD MAP</h1>
       <div className="map">
         <img src={map} alt="" />

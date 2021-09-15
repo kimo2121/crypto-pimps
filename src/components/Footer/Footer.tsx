@@ -8,20 +8,20 @@ const Footer: React.FC = () => {
     <div className="footer">
       <h1>CRYPTO PIMPS</h1>
       <div className="footer-nav">
-        <Link smooth={true} duration={700} to="road-map">
+        <Link smooth={true} duration={700} to="about">
           ABOUT
         </Link>
-        <Link smooth={true} duration={700} to="road-map">
+        <Link smooth={true} duration={700} to="team">
           TEAM
         </Link>
         <Link smooth={true} duration={700} to="road-map">
           ROADMAP
         </Link>
-        <Link smooth={true} duration={700} to="road-map">
+        <Link smooth={true} duration={700} to="faq">
           FAQ
         </Link>
         <div className="footer-external-links">
-          <a href="/">
+          <a href="https://twitter.com/Crypto_Pimps">
             <img className="twitter-link" src={twitter} alt="" />
           </a>
           <a href="/">

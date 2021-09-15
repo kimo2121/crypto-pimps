@@ -9,11 +9,14 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-
+.team-members a {
+  text-decoration: none;
+  color: white;
+}
 .team-members p {
   color: white;
   font-size: 26px;
-  width: 200px;
+  width: 240px;
   margin: 0 auto;
   /* margin: 0 auto; */
 }
@@ -24,7 +27,7 @@
 .each-member {
   width: 260px;
   height: 360px;
-  margin: 3vh 2vw;
+  margin: 5vh 2vw;
 }
 .member-frame {
   background-image: url("../../assets/images/memberFrame.png");

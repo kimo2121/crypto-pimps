@@ -7,32 +7,40 @@ import member4 from "../../assets/images/member4.jpg";
 
 const TeamMembers: React.FC = () => {
   return (
-    <div className="team-container">
+    <div id="team" className="team-container">
       <h1>TEAM</h1>
       <div className="team-members">
         <div className="each-member">
           <div className="member-frame">
             <img src={member1} alt="" />
           </div>
-          <p>Ac3 - Project lead</p>
+          <p>
+            <a href="https://twitter.com/Crypto_Ac3">Ac3 - Project lead</a>
+          </p>
         </div>
         <div className="each-member">
           <div className="member-frame">
             <img src={member2} alt="" />
           </div>
-          <p>Jive - Lead Artist</p>
-        </div>
-        <div className="each-member">
-          <div className="member-frame">
-            <img src={member3} alt="" />
-          </div>
-          <p>LemonCrypto - Smart contract dev</p>
+          <p>
+            <a href="https://twitter.com/jiveturkey1497">Jive - Lead Artist</a>
+          </p>
         </div>
         <div className="each-member">
           <div className="member-frame">
             <img src={member4} alt="" />
           </div>
-          <p>Mr. Cryptz - Background artist</p>
+          <p>
+            <a href="https://twitter.com/AnonLeagueSA">
+              Cryptz - Background artist
+            </a>
+          </p>
+        </div>
+        <div className="each-member">
+          <div className="member-frame">
+            <img src={member3} alt="" />
+          </div>
+          <p>Caakes - Smart contract dev</p>
         </div>
       </div>
     </div>

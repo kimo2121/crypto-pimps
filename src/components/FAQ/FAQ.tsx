@@ -4,7 +4,7 @@ import { ReactComponent as DropDownArrow } from "../../assets/icons/FAQ.svg";
 import downArrow from "../../assets/images/FAQ.png";
 const FAQ: React.FC = () => {
   return (
-    <div className="faq-container">
+    <div id="faq" className="faq-container">
       <h1>FAQ:</h1>
       <div className="inner-faq">
         <h2>
