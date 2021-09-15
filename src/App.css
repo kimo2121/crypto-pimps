@@ -1,3 +1,7 @@
 .App {
   text-align: center;
 }
+@font-face {
+  font-family: "Neon\ Future.ttf";
+  src: url("/src/assets/neon-future/Neon\ Future.ttf");
+}

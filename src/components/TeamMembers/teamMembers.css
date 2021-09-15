@@ -1,0 +1,42 @@
+.team-container {
+  margin-top: 20vh;
+}
+.team-container h1 {
+  color: white;
+}
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-members p {
+  color: white;
+  font-size: 26px;
+  width: 200px;
+  margin: 0 auto;
+  /* margin: 0 auto; */
+}
+.each-member img {
+  width: 78.5%;
+  height: 81%;
+}
+.each-member {
+  width: 260px;
+  height: 360px;
+  margin: 3vh 2vw;
+}
+.member-frame {
+  background-image: url("../../assets/images/memberFrame.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-position: center center;
+  left: 0;
+  z-index: -1;
+}

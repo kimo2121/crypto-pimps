@@ -1,0 +1,128 @@
+.home {
+  background-color: black;
+}
+
+.first-background,
+.second-background {
+  background-image: url("../../assets/images/Layer 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85vh;
+  background-position: top left;
+  left: 0;
+  z-index: -1;
+}
+.second-background {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../../assets/images/Neon Dancefloor.png");
+}
+.second-background h1 {
+  position: absolute;
+  color: white;
+  margin-top: -5vh;
+  width: 47%;
+  line-height: 150%;
+  font-weight: 500;
+}
+.about {
+  color: white;
+  text-align: left;
+  width: 1140px;
+  margin-top: -10vh;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.about h4 {
+  font-size: 32px;
+}
+.about p {
+  font-size: 28px;
+  line-height: 180%;
+}
+.mint-component {
+  color: white;
+  margin-top: 20vh;
+}
+.mint-component h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 1vh;
+}
+.mint-component span {
+  font-size: 18px;
+}
+.how-to-buy {
+  margin-top: 20vh;
+  color: white;
+}
+.background-buy {
+  background-image: url("/src/assets/images/buyBanner.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+}
+@media screen and (max-width: 1600px) {
+  .background-buy {
+    height: 50vh;
+  }
+  .first-background,
+  .second-background {
+    height: 70vh;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about {
+    width: 90%;
+  }
+  .background-buy {
+    height: 40vh;
+  }
+  .first-background {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 990px) {
+  .background-buy {
+    height: 30vh;
+  }
+  .first-background,
+  .second-background {
+    height: 45vh;
+  }
+  .second-background h1 {
+    font-size: 24px;
+    width: 70%;
+  }
+  .about p {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .background-buy {
+    background-size: 100% 100%;
+    height: 40vh;
+  }
+  .first-background,
+  .second-background {
+    height: 40vh;
+    background-size: 100% 100%;
+  }
+  .second-background h1 {
+    font-size: 18px;
+    width: 90%;
+  }
+  .about p {
+    font-size: 18px;
+  }
+}

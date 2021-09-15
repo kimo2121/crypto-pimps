@@ -1,0 +1,95 @@
+.navbar {
+  display: flex;
+  padding: 20px 45px 20px 90px;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  align-items: center;
+}
+.logo h1 {
+  font-size: 36px;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+}
+.nav-links a {
+  color: #cc66ff;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0 1vw;
+}
+.external-links {
+  display: flex;
+  align-items: center;
+}
+
+.twitter-link {
+  width: 45px;
+  object-fit: fill;
+  margin: 0 0.5vw;
+  height: 45px;
+}
+.discord-link {
+  width: 70px;
+  object-fit: fill;
+  margin: 0 0.5vw;
+  height: 50px;
+}
+.slide-menu {
+  left: -100%;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 300px;
+  height: 100vh;
+  transition: all 0.4s;
+  background-color: black;
+
+  top: 0;
+}
+.slide-menu.active {
+  top: 0;
+  left: 0;
+}
+.menu-icon {
+  fill: white;
+  display: none;
+}
+.close-icon {
+  fill: white;
+  width: 40px;
+  height: 40px;
+  margin-top: 3vh;
+  margin-left: 2vw;
+}
+@media screen and (max-width: 1025px) {
+  .nav-links,
+  .external-links {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .nav-links.menu {
+    flex-direction: column;
+    display: flex;
+  }
+  .nav-links.menu a {
+    margin: 1vh 0;
+  }
+  .external-links.menu {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar {
+    padding: 20px 45px 20px 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo h1 {
+    font-size: 28px;
+  }
+}

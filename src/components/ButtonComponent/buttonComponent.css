@@ -1,0 +1,26 @@
+.wallet-btn {
+  color: white;
+  background-color: #ff01ff;
+  border-radius: 50px;
+  padding: 40px 30px;
+  border: none;
+  position: absolute;
+  right: 20px;
+  margin-top: 20px;
+  outline: none;
+  font-size: 28px;
+  font-weight: normal;
+  box-shadow: 0px 0px 8px 5px white;
+}
+@media screen and (max-width: 1200px) {
+  .wallet-btn {
+    padding: 20px 20px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .wallet-btn {
+    padding: 20px;
+    font-size: 16px;
+  }
+}

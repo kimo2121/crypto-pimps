@@ -1,0 +1,45 @@
+.footer {
+  margin: 0 auto;
+  margin-top: 10vh;
+  padding: 5vh 12vw;
+  width: 98%;
+  box-sizing: border-box;
+}
+.footer h1 {
+  font-weight: normal;
+  color: white;
+}
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-nav > a {
+  font-family: "Neon\ Future.ttf";
+  text-decoration: none;
+  color: #cc66ff;
+  margin: 0 25px;
+  cursor: pointer;
+  font-size: 22px;
+  text-shadow: 5px 5px 10px #ffffff;
+}
+.footer-external-links {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  .footer-nav {
+    flex-direction: column;
+  }
+  .footer-nav > a {
+    margin: 1.5vh 0;
+  }
+  .footer-external-links {
+    margin-top: 3vh;
+  }
+  .footer-external-links a {
+    margin: 0 10px;
+  }
+}
