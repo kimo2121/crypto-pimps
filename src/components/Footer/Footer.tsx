@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
           <a href="https://twitter.com/Crypto_Pimps">
             <img className="twitter-link" src={twitter} alt="" />
           </a>
-          <a href="/">
+          <a href="https://t.co/mXM8Lige7P">
             <img className="discord-link" src={discord} alt="" />
           </a>
         </div>

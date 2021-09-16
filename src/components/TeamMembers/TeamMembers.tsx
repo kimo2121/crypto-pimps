@@ -41,7 +41,7 @@ const TeamMembers: React.FC = () => {
           <div className="member-frame">
             <img src={member3} alt="" />
           </div>
-          <p>Caakes - Smart contract dev</p>
+          <p>Caakes - Web UI Designer</p>
         </div>
         <div className="each-member">
           <div className="member-frame">

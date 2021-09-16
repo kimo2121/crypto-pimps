@@ -13,7 +13,8 @@
 .faq-component h1 {
   font-family: "60s\ Pop.ttf";
   font-size: 36px;
-  color: white;
+  font-weight: 400;
+  color: #ffccff;
 }
 .minus.active {
   display: block;

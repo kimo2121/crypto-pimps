@@ -147,6 +147,7 @@ const CustomizedAccordions: React.FC = () => {
                 alt=""
               />
               Q: What are the costs of minting? Is minting multiple in one
+              transaction possible? How do I mint?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -176,6 +177,7 @@ const CustomizedAccordions: React.FC = () => {
                 alt=""
               />
               Q: Will there be any partnerships or future collaborations with
+              artists or other projects?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>

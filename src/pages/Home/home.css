@@ -22,10 +22,12 @@
   color: #ffccff;
   width: 47%;
   line-height: 150%;
+  font-size: 36px;
   font-weight: 500;
 }
 .about {
-  color: white;
+  color: #ffccff;
+
   width: 1140px;
   text-align: left;
   margin-top: -10vh;
@@ -36,6 +38,7 @@
 .about h4 {
   text-align: center;
   font-family: "60s\ Pop.ttf";
+  font-weight: 400;
   font-size: 36px;
 }
 .about p {
@@ -47,7 +50,8 @@
   color: white;
   margin-top: 20vh;
 }
-.mint-component h1 {
+.mint-component h1,
+.mint-component h2 {
   color: white;
   font-family: "60s\ Pop.ttf";
   font-size: 36px;
@@ -56,10 +60,8 @@
   margin-bottom: 1vh;
 }
 .mint-component h2 {
-  color: #ffccff;
-  font-size: 36px;
-  font-weight: 400;
-  margin-bottom: 1vh;
+  margin-top: 8vh;
+  padding-bottom: 0vh;
 }
 .mint-component p {
   font-size: 18px;
@@ -68,10 +70,11 @@
 }
 .how-to-buy {
   margin-top: 20vh;
-  font-family: "60s\ Pop.ttf";
-  color: white;
 }
 .how-to-buy h1 {
+  font-weight: 400;
+  font-family: "60s\ Pop.ttf";
+  color: #ffccff;
   font-size: 36px;
 }
 .background-buy {
