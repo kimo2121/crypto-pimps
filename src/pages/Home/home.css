@@ -60,8 +60,20 @@
   margin-bottom: 1vh;
 }
 .mint-component h2 {
+  font-size: 40px;
   margin-top: 8vh;
+  margin-right: auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: auto;
+  width: fit-content;
+  text-transform: capitalize !important;
+  background-color: #fc27fc50;
   padding-bottom: 0vh;
+}
+.mint-component h2:hover {
+  background-color: #fc27fc91;
+  cursor: pointer;
 }
 .mint-component p {
   font-size: 18px;

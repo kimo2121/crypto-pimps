@@ -28,7 +28,7 @@ const Item = styled.div`
 
 const ItemValue = styled.span`
   color: black;
-  font-size: 1.6vmax;
+  font-size: 2.2vmax;
   font-weight: bold;
   margin-bottom: 0px;
   background-color: #e5b7ff;

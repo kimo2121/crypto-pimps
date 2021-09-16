@@ -35,8 +35,8 @@ const Home: React.FC = () => {
       <div className="mint-component">
         <h1>CountDown</h1>
         <Timer mintStartAt={1632138400} />
-        <h2>Mint</h2>
-        <p>Cost to mint: 0.05 ETH. Max 25 pimps</p>
+        <h2>MINT</h2>
+        <p>Max 25 Pimps per transaction</p>
       </div>
       <TeamMembers />
       <RoadMap />
