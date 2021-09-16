@@ -7,7 +7,9 @@
 }
 .footer h1 {
   font-weight: normal;
+  font-family: "60s\ Pop.ttf";
   color: white;
+  font-size: 36px;
 }
 .footer-nav {
   display: flex;
@@ -16,13 +18,13 @@
 }
 
 .footer-nav > a {
-  font-family: "Neon\ Future.ttf";
+  font-family: "60s\ Pop.ttf";
   text-decoration: none;
   color: #cc66ff;
   margin: 0 25px;
   cursor: pointer;
-  font-size: 22px;
-  text-shadow: 5px 5px 10px #ffffff;
+  font-size: 26px;
+  /* text-shadow: 5px 2px 5px #ffffff; */
 }
 .footer-external-links {
   display: flex;

@@ -4,10 +4,10 @@
   justify-content: space-between;
   background-color: black;
   align-items: center;
-  align-items: center;
+  font-family: "60s\ Pop.ttf";
 }
 .logo h1 {
-  font-size: 36px;
+  font-size: 42px;
   font-weight: 400;
   color: white;
   margin: 0;

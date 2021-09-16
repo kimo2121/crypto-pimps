@@ -15,6 +15,7 @@ const Heading = styled.h1`
   letter-spacing: -0.5px;
   font-weight: bold;
   margin-bottom: 25px;
+  font-family: 60s\Pop.ttf;
 `;
 
 const Item = styled.div`
@@ -78,9 +79,6 @@ const Timer = ({ mintStartAt }: any) => {
 
   return timerVisible ? (
     <Card>
-      <Heading>
-        <img src={countdown} alt="" />
-      </Heading>
       <RowContainer>
         <Item>
           <ItemValue id="days">

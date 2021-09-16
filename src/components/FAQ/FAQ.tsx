@@ -65,7 +65,7 @@ const CustomizedAccordions: React.FC = () => {
 
   return (
     <div id="faq" className="faq-component">
-      <h1>FAQ:</h1>
+      <h1>FAQ</h1>
       <div className="accordion-wrpper">
         <Accordion
           square

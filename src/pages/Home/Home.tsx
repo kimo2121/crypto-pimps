@@ -12,10 +12,8 @@ import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 const Home: React.FC = () => {
   return (
     <div className="home">
-      <div className="first-background">
-        <ButtonComponent className="wallet-btn" label="CONNECT WALLET" />
-      </div>
       <div className="second-background">
+        <ButtonComponent className="wallet-btn" label="CONNECT WALLET" />
         <h1>
           Whaddup Playa’s, welcome to the club. Grab a drink, get on the
           dancefloor and enjoy the show. We’re just getting started
@@ -35,14 +33,15 @@ const Home: React.FC = () => {
       </div>
 
       <div className="mint-component">
+        <h1>CountDown</h1>
         <Timer mintStartAt={1632138400} />
-        <h1>Mint</h1>
-        <span>Cost to mint: 0.05 ETH. Max 25 pimps</span>
+        <h2>Mint</h2>
+        <p>Cost to mint: 0.05 ETH. Max 25 pimps</p>
       </div>
       <TeamMembers />
       <RoadMap />
       <div className="how-to-buy">
-        <h1>HOW TO BUY:</h1>
+        <h1>HOW TO BUY</h1>
         <div className="background-buy"></div>
       </div>
       <FAQ />

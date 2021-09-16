@@ -5,3 +5,7 @@
   font-family: "Neon\ Future.ttf";
   src: url("/src/assets/neon-future/Neon\ Future.ttf");
 }
+@font-face {
+  font-family: "60s\ Pop.ttf";
+  src: url("/src/assets/60s-pop/60s\ Pop.ttf");
+}

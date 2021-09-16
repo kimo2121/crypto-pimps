@@ -11,6 +11,8 @@
   display: none;
 }
 .faq-component h1 {
+  font-family: "60s\ Pop.ttf";
+  font-size: 36px;
   color: white;
 }
 .minus.active {
