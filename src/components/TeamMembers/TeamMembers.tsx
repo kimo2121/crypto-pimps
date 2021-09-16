@@ -4,6 +4,7 @@ import member1 from "../../assets/images/member1.jpg";
 import member2 from "../../assets/images/member2.jpg";
 import member3 from "../../assets/images/member3.jpg";
 import member4 from "../../assets/images/member4.jpg";
+import member5 from "../../assets/images/member5.png";
 
 const TeamMembers: React.FC = () => {
   return (
@@ -41,6 +42,12 @@ const TeamMembers: React.FC = () => {
             <img src={member3} alt="" />
           </div>
           <p>Caakes - Smart contract dev</p>
+        </div>
+        <div className="each-member">
+          <div className="member-frame">
+            <img src={member5} alt="" />
+          </div>
+          <p>Lomon Crypto - Developer</p>
         </div>
       </div>
     </div>
