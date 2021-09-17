@@ -212,7 +212,7 @@ const CustomizedAccordions: React.FC = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              A: The reveal date/time will be the 17th of September at 11:59pm
+              A: The reveal date/time will be the 29th of September at 11:59pm
               UTC!
             </Typography>
           </AccordionDetails>

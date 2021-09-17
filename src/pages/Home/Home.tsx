@@ -14,6 +14,7 @@ const Home: React.FC = () => {
     <div className="home">
       <div className="second-background">
         <ButtonComponent className="wallet-btn" label="CONNECT WALLET" />
+        <ButtonComponent className="claim-btn" label="Claim" />
         <h1>
           Whaddup Playa’s, welcome to the club. Grab a drink, get on the
           dancefloor and enjoy the show. We’re just getting started
@@ -34,7 +35,7 @@ const Home: React.FC = () => {
 
       <div className="mint-component">
         <h1>CountDown</h1>
-        <Timer mintStartAt={1632138400} />
+        <Timer mintStartAt={1632614400} />
         <h2>MINT</h2>
         <p>Max 25 Pimps per transaction</p>
       </div>
